@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:head>
+        <title><ui:insert name="title">Domyślny tytuł</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<h:outputStylesheet library="css" name="main.css" />
+        <h:outputScript library="js" name="functions.js"/> 
+    </h:head>
+    
+    <h:body class="is-preload">
+        <!--Wraper-->
+        <div id="wrapper">
+            <!--Main-->
+            <div id="main">
+                <div class="inner"> <!-- robi sciecia po bokach zeby bylo ladnie -->
+                    <header id="header">
+                    <a href="" class="logo">
+                        <h1>Sklep Komputerowy</h1>                     
+                    </a>                       
+                    <div style ="text-align: center; margin:auto; display:table; border:1px;">
+                        <p></p>
+                        <span class="right">                            
+                        <!-- panel akcji zalogowanego/niezalogowanego/admina -->
+                        </span>       
+                    </div>
+                    </header>
+                        
+                    <section>
+                    Domyślna zawartość strony
+                    </section>
+                    <!--Wyświetlanie błędów/info/warning-->
+                    <section>
+                    
+                    </section>
+                </div>
+            </div>
+                    <!--Sidebar-->
+            <div id="sidebar" class="inactive">
+                <div class="inner">
+                    <!--Search-->
+                    
+                    <section id="search" class="alt">
+			<form method="post" action="">
+                            <input type="text" name="input" placeholder="Szukaj Produktów"/>
+			</form>
+                    </section>
+                    
+                    <!--Menu-->
+                    <nav id="menu">
+                        <header class="major">
+                            <h3>Menu</h3>
+                        </header>
+                        <ul>
+                            <li><a href="">Desktopy</a></li>
+                            <li><a href="">Laptopy</a></li>
+                            <li><span class="opener">Podzespoły</span>
+                                <ul>
+                                    <li><a href="">Karty graficzne</a></li>
+                                    <li><a href="">Procesory</a></li>
+                                    <li><a href="">Płyty Główne</a></li>
+                                    <li><a href="">Pamięci RAM</a></li>
+                                    <li><a href="">Dyski HDD i SSD</a></li>
+                                    <li><a href="">Obudowy Komputerowe</a></li>
+                                    <li><a href="">Zasilacze Komputerowe</a></li>
+                                    <li><a href="">Chłodzenia komputerowe</a></li>
+                                </ul>
+                            </li>
+                            <li><span class="opener">Urządzenia Peryferyjne</span>
+                                <ul>
+                                    <li><a href="">Monitory</a></li>
+                                    <li><a href="">Słuchawki</a></li>
+                                    <li><a href="">Myszki</a></li>
+                                    <li><a href="">Klawiatury</a></li>
+                                    <li><a href="">Mikrofony</a></li>
+                                </ul>
+                    </nav>
+                                <section>
+                                    <header class="major">
+                                        <h2>Kontakt</h2>
+                                    </header>
+                                    <ul class="contact">
+                                        <li class="icon solid fa-envelope">
+                                            Filip.Stasiak786@gmail.com 
+                                        </li>
+                                        <li class="icon solid fa-home">
+                                            Sosnowiec -- PAW
+                                        </li>
+                                    </ul>
+                                </section>
+                                <footer id="footer">
+                                    <p class="copyright">
+                                        Wszystkie grafiki i dane zaczerpnięte z<br> <a href ="https://www.x-kom.pl">www.x-kom.pl</a>
+                                        <br><br>© Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.
+                                    </p>
+                                </footer>
+                </div>
+            </div>                                   
+        </div>
+        <!-- Skrypty -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/browser.min.js"></script>
+    <script src="/js/breakpoints.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+    
+    </body>
+    
+</html>
